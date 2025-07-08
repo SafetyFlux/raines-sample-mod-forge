@@ -2,6 +2,7 @@ package com.safetyflux.rainessamplemod;
 
 import com.mojang.logging.LogUtils;
 import com.safetyflux.rainessamplemod.Item.ModItems;
+import com.safetyflux.rainessamplemod.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,6 +34,7 @@ public class RainesSampleMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -48,6 +50,14 @@ public class RainesSampleMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TOPAZ);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TOPAZ_BLOCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.TOPAZ_ORE);
         }
     }
 

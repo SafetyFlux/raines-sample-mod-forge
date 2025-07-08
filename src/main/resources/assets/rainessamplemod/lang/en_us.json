@@ -1,3 +1,6 @@
 {
-  "item.rainessamplemod.topaz": "Topaz"
+  "item.rainessamplemod.topaz": "Topaz",
+
+  "block.rainessamplemod.topaz_ore": "Topaz Ore",
+  "block.rainessamplemod.topaz_block": "Block of Topaz"
 }
