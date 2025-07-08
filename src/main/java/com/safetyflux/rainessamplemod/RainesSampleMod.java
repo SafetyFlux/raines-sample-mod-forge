@@ -1,7 +1,7 @@
 package com.safetyflux.rainessamplemod;
 
 import com.mojang.logging.LogUtils;
-import com.safetyflux.rainessamplemod.Item.ModItems;
+import com.safetyflux.rainessamplemod.item.ModItems;
 import com.safetyflux.rainessamplemod.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;

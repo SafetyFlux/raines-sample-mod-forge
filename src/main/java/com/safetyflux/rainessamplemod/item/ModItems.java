@@ -1,4 +1,4 @@
-package com.safetyflux.rainessamplemod.Item;
+package com.safetyflux.rainessamplemod.item;
 
 import com.safetyflux.rainessamplemod.RainesSampleMod;
 import net.minecraft.world.item.Item;

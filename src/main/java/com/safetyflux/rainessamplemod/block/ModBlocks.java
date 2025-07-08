@@ -1,6 +1,6 @@
 package com.safetyflux.rainessamplemod.block;
 
-import com.safetyflux.rainessamplemod.Item.ModItems;
+import com.safetyflux.rainessamplemod.item.ModItems;
 import com.safetyflux.rainessamplemod.RainesSampleMod;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
