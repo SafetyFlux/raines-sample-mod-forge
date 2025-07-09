@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rainessamplemod:topaz_ore",
+    "rainessamplemod:deepslate_topaz_ore",
+    "rainessamplemod:topaz_block"
+  ]
+}
