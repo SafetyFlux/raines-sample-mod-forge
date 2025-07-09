@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.rainessamplemod.raines_sample_mod"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.TOPAZ_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_TOPAZ_ORE.get());
                         pOutput.accept(ModItems.TOPAZ.get());
                         pOutput.accept(ModBlocks.TOPAZ_BLOCK.get());
                     }).build());
