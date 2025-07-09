@@ -2,5 +2,7 @@
   "item.rainessamplemod.topaz": "Topaz",
 
   "block.rainessamplemod.topaz_ore": "Topaz Ore",
-  "block.rainessamplemod.topaz_block": "Block of Topaz"
+  "block.rainessamplemod.topaz_block": "Block of Topaz",
+
+  "creativetab.rainessamplemod.raines_sample_mod": "Raine's Sample Mod"
 }

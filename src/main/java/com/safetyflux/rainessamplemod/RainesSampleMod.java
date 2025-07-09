@@ -1,6 +1,7 @@
 package com.safetyflux.rainessamplemod;
 
 import com.mojang.logging.LogUtils;
+import com.safetyflux.rainessamplemod.item.ModCreativeModeTabs;
 import com.safetyflux.rainessamplemod.item.ModItems;
 import com.safetyflux.rainessamplemod.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,8 @@ public class RainesSampleMod {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
